@@ -1,0 +1,27 @@
+.user,
+.post {
+  width: 300px;
+  box-shadow: 3px 3px 15px 0 rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.user {
+  height: 300px;
+}
+
+.post {
+  height: 400px;
+}
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
